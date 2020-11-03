@@ -1,0 +1,118 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.ub-hidden{
+  display: none;
+}
+
+.ub-container {
+  max-width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ub-logo {
+  width: auto;
+  height: 64px;
+}
+
+.ub-firefox {
+  margin: 0 64px;
+}
+
+.ub-title {
+  font-size: 18px;
+  padding: 16px 0
+}
+
+.ub-message {
+  font-size: 12px;
+}
+
+
+
+@media (max-width: 800px) {
+  .ub-container{
+    width: 100%;
+  }
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media (max-width: 400px) {
+  .ub-container {
+    height: 100%;
+    padding-top: 64px;
+  }
+
+  .ub-logo {
+    height: 32px;
+  }
+
+  .ub-title {
+    padding-bottom: 8px;
+  }
+
+  .error-code {
+    font-size: 150px;
+    bottom:72px;
+  }
+}
+
+.ub-cta {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.ub-cta-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.stz-typo-content-h1 {
+  font: 700 24px/24px Arial, system-ui, sans-serif;
+}
+
+.stz-typo-content-body {
+  font: 400 16px/24px Arial, system-ui, sans-serif;
+}
+
+.stz-typo-content-h3 {
+  font: 700 16px/24px Arial, system-ui, sans-serif;
+}
+
+.stz-typo-content-h4 {
+  font: 700 14px/24px Arial, system-ui, sans-serif;
+}
+
+.error-list {
+  margin-top: 8px;
+  padding-left: 0;
+  list-style: none;
+}
+.error-link {
+  margin-left: 8px;
+}
+.error-code {
+  z-index: -1;
+  position: absolute;
+  font-size: 500px;
+  bottom: 0;
+  right: 0;
+  font-weight: 700;
+  opacity: 0.04;
+  user-select: none;
+  webkit-touch-callout: none;
+  outline: none;
+}
+.error-content {
+  max-width: 660px;
+}
