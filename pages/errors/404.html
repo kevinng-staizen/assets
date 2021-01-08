@@ -3,21 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="./favicon.ico">
-  <link rel="stylesheet" href="./error.css">
+  <link href="./images/favicon.ico" rel="icon">
+  <link href="./css/error.css" rel="stylesheet">
   <title>404</title>
 </head>
 
 <body>
   <div class="ub-container">
-    <img class="ub-logo" src="./logo.svg"></img>
+    <img class="ub-logo" src="./images/logo.svg"></img>
     <div class="ub-title stz-typo-content-h1">Uh oh. This is not the page you were looking for.</div>
+    <label class="stz-typo-content-body">Any chance you were looking for one of these?</label>
     <div class="error-content ub-message stz-typo-content-body">
       <ul class="error-list">
         <li>- <a class="ub-cta-link error-link" href="/login">Login</a></li>
         <li>- <a class="ub-cta-link error-link" href="/login">Our website</a></li>
         <li>- <a class="ub-cta-link error-link" href="/login">Sign up for a new account</a></li>
-        <li>- <a class="ub-cta-link error-link" href="/login">Forgot User ID or Password</a></li>
+        <li>- <span class="error-link">Forgot <a class="ub-cta-link" href="@{/login/forgotUserId}">User ID</a> or <a class="ub-cta-link" href="@{/login/resetPassword}">Password</a></span></li>
       </ul>
     </div>
   </div>

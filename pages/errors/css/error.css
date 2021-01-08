@@ -98,6 +98,11 @@ body {
   padding-left: 0;
   list-style: none;
 }
+
+.error-list:before{
+  content:attr(aria-label);
+}
+
 .error-link {
   margin-left: 8px;
 }
