@@ -115,4 +115,5 @@ body {
 }
 .error-content {
   max-width: 660px;
+  z-index: 1;
 }
