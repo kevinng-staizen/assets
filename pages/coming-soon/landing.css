@@ -1,0 +1,95 @@
+.ub-body {
+  height: 100%;
+  margin: 0;
+}
+
+.ub-hidden{
+  display:none;
+}
+
+.ub-container {
+  max-width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ub-logo {
+  width: auto;
+  height: 64px;
+}
+
+.ub-title {
+  font-size: 18px;
+  padding: 16px 0
+}
+
+.ub-message {
+  font-size: 12px;
+}
+
+@media (max-width: 800px) {
+  .ub-container{
+    width: 100%;
+  }
+}
+
+.ub-browser-item {
+  display: inline-block;
+  position: relative;
+  width: auto;
+  text-decoration: none;
+  font-size: 12px;
+  color: darkblue;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media (max-width: 400px) {
+  .ub-container {
+    height: 100%;
+    padding-top: 32px;
+  }
+
+  .ub-logo {
+    height: 32px;
+  }
+
+  .ub-title {
+    padding-bottom: 8px;
+  }
+
+}
+
+.ub-cta {
+  display: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.ub-cta-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.stz-typo-content-h1 {
+  font: 700 24px/24px Arial, system-ui, sans-serif;
+}
+
+.stz-typo-content-body {
+  font: 400 16px/24px Arial, system-ui, sans-serif;
+}
+
+.stz-typo-content-h3 {
+  font: 700 16px/24px Arial, system-ui, sans-serif;
+}
+
+.stz-typo-content-h4 {
+  font: 700 14px/24px Arial, system-ui, sans-serif;
+}
